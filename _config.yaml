@@ -1,0 +1,65 @@
+# Profile section
+profile:
+  first_name: POOJITHA
+  last_name: CHENNURU
+  contact:
+    phone: (430)-280-7420
+  email: pchennuru@leomail.tamuc.edu
+  description:
+    5.5 years of experience as senior software engineer.
+    Experienced in working with Infrastructure support teams and application team to troubleshoot and
+    fix issues with proper RCA & Preventive actions
+
+# Experience section
+experience:
+  item2:
+    position: IT Analyst
+    company: Fujitsu Consulting India Pvt Ltd, India
+    from: March 2018
+    to: July 2021
+    description: >
+      Created visually impactful dashboards in Excel and Tableau for data reporting by using pivot tables
+      and VLOOKUP.
+      Done data analysis and visualization on large sets of data using Python NumPy, Pandas, Matplot.
+      Facilitated the team in running SQL queries to track data discrepancies. Actively involved in data
+      extraction, data cleaning and setup/prepare workspace
+      Optimized data collection procedures and generated reports on a weekly, monthly, and quarterly
+      basis
+  item1:
+    position: IT Analyst
+    company: Collaboration Technologies Pvt Ltd, India
+    from: June 2016
+    to: Feb 2018
+    description: >
+      Proficient working experience in Citrix and Windows Systems Administration, and in Active
+      directory adding\Creating users and groups and Technical Support.
+      Maintaining and clearing the Citrix user’s profile through File share, RES, Ivanti
+      Capturing/Profile file specific to applications.Responsible for administering and supporting more than 1000+ Citrix server’s environments of
+      Windows Servers 2008/2012. Resolving Citrix related incidents by understanding the issue
+      clearly and will schedule a meeting with affected users if necessary.
+
+
+# Education section
+education:
+  item1:
+    institution: Texas A & M University, commerce,TX
+    program: Master Of Science,Computer Science
+    from: January 2022
+    to: Present
+
+
+
+# Achievements section:
+achievements:
+  - Twice received certificate of Appreciation for exceeding customer expectations and timely delivery.
+
+# Skills section
+
+skills:
+  - Tools (tableau, Informatica, Oracle Data Integrator, SQL Workbench, Microsoft Power BI,Microsoft Visio, File-Aid, SPUFI, Control-M, Beyond Compare)
+  - Languages (Python, SQL, C++,DB2)
+  - Operating Systems (Windows, Linux)
+  - Productivity Software (Microsoft Office Tools, Google SpreadSheets, OneNote, Teams)
+  - Ticketing tool (LANDesk and service-Now)
+
+
