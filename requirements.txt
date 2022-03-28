@@ -1,3 +1,4 @@
 Flask
 oyaml
 gunicorn
+pyyaml==5.4.1
