@@ -49,9 +49,27 @@ education:
 
 
 
-# Achievements section:
-achievements:
-  - Twice received certificate of Appreciation for exceeding customer expectations and timely delivery.
+# Project section:
+projects:
+  item2:
+    name: Stock Portifolio Dataset
+    domain: Software Engineering
+    from: July 2021
+    to: September 2021
+    description: >
+      Exploratory Data Analysis and Statistical Modelling of stock portifolio dataset.
+      Applied Descriptive and Inferential Statistics, Model Ad- equacy tests , Model Diagnostics , 
+      Principal Component Analysis , Factor Analysis.Applied K Nearest Neighbours , Random Forest ,
+      Decision Trees , Bagging and Boosting for better accuracy.
+  item1:
+    name: E-Commerece web application
+    domain: Web Development
+    from: Ocgtober 2021
+    to: December 2021
+    description: >
+      Developed a Social Media Application for shopping by us- ing django and mongodb
+      This Application has in built E-Commerce website, Inte- grated with recommender system and sentiment analysis Model for recommending Products based on user’s choice.
+      The Application is Deployed on Microsoft Azure for scala- bility.
 
 # Skills section
 
