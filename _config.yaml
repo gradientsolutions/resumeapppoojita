@@ -64,7 +64,7 @@ projects:
   item1:
     name: E-Commerece web application
     domain: Web Development
-    from: Ocgtober 2021
+    from: October 2021
     to: December 2021
     description: >
       Developed a Social Media Application for shopping by us- ing django and mongodb
