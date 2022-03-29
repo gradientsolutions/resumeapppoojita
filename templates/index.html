@@ -48,7 +48,10 @@
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#achievements">Achievements</a>
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>
+		 <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#new_projects">New Projects</a>
         </li>
         </li>
       </ul>
@@ -142,22 +145,34 @@
 
     <hr class="m-0">
 
-     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="achievements">
+     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
       <div class="w-100">
-        <h2 class="mb-5">Achievements</h2>
+        <h2 class="mb-5">Projects</h2>
         
-        <div class="subheading mb-3">Achievements</div>
-        <ul class="fa-ul mb-0">
-          {% for item in data.achievements %}
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            {{ item }}</li>
-          {% endfor %}
-        </ul>
+        {% for _, item in data.projects.items() %}
+        {% if _ != 'reference' %}
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">{{ item.name }}</h3>
+            <div class="subheading mb-3">{{ item.domain }}</div>
+            <p>{{ item.description }}</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">{{ item.from }} - {{ item.to }}</span>
+          </div>
+        </div>
+        {% else %}
+        {% endif %}
+        {% endfor %}
       </div>
     </section>
 
     <hr class="m-0">
+	<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="new_projects">
+      <div class="w-100">
+        <h2 class="mb-5">New Projects</h2>
+      </div>
+    </section>
 
    
  
